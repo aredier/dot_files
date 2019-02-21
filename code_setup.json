@@ -1,0 +1,21 @@
+{
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": ["#035477", "#bcd7e2"],
+    "vim.statusBarColors.insert": ["#e86e3a", "#434C5E"],
+    "vim.statusBarColors.visual": ["#5dd33d", "#434C5E"],
+    "vim.statusBarColors.visualline": ["#5dd33d", "#434C5E"],
+    "vim.statusBarColors.visualblock": [",#5dd33d", "#434C5E"],
+    "vim.statusBarColors.replace": ["#fc539f", "#434C5E"],
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#5dd33d",
+      "statusBar.noFolderBackground": "#5dd33d",
+      "statusBar.debuggingBackground": "#5dd33d",
+      "statusBar.foreground": "#434C5E"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "python.linting.pylintPath": "/Users/antoine.redier/.pyenv/shims/pylint",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [100,120]
+  }
