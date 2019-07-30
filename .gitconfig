@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#       name = aredier
+#       email = antoine.redier2@gmail.com
+[alias]
+    amend = !git add -A && git commit --amend --no-edit
+    pushf = !git push --force-with-lease
+    coam = !git commit -am
+    ckt = !git checkout
+    pullr = !git pull --rebase --autostash
